@@ -59,7 +59,10 @@ flowchart LR
 ### Open anaconda prompt 
 Anaconda is simplest way on windows to use demucs
 * Do everything that follows from within the anaconda prompt venv
-  
+
+### Use the Demucs GUI instead of anaconda prompt
+GUI is by far the simplest way to do things
+
 ### CD into root storage folder
 Wherever you keep it (e.g. "D:\music")
 * if you don't have "base folders", make some, e.g.:
