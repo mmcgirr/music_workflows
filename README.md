@@ -146,6 +146,15 @@ This will spit out the separations in the "separated\htdemucs\file_name\" folder
 > [!NOTE]
 > Per [Demucs Docs](https://github.com/adefossez/demucs) the output files from demucs are all 16bit pcm, 2ch at 44.1khz
 
+The above is valid for command line usage of demucs on your PC.  However!  Use the demucs GUI instead (And use the CUDA version, since the GeForce RTX 3050Ti has the proper compute capability of 8.6).  CUDA version is a hell of a lot faster than CPU version.
+* Use this absolute path for it: 
+  * "D:/__music/separated/{model}/{track}/{stem}.{ext}"
+  * It will put things into the correct folder 
+    * htdemucs_6s for 6 stem
+      * Bass, drums, guitar, other, vocal, piano
+    * htdemucs for normal 4 stem separation
+      * Bass, drums, other, vocal
+
 ### Convert the demucs output files to 16bit, 2ch, 48kHz
 
 > :memo: 
