@@ -13,10 +13,12 @@
 [Emoji listing for icons in this doc](https://gist.github.com/rxaviers/7360908)  
 [yt-dlp docs](https://github.com/yt-dlp/yt-dlp)  
 [ffmpeg docs](https://ffmpeg.org/ffmpeg.html)  
-[Demucs Docs](https://github.com/adefossez/demucs)
+[Demucs Docs](https://github.com/adefossez/demucs)  
+[Demucs GUI Docs](https://github.com/CarlGao4/Demucs-Gui)  USE THIS!  
 [Ableton Live Docs](https://cdn-resources.ableton.com/resources/manual/2023-03-30/l11manual_en.pdf)  
 [Focusrite Control Docs](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Focusrite%20Control%20Scarlett%203rd%20Gen%20User%20Guide%20v2.pdf)  
 [Focusrite Scarlett Docs](https://fael-downloads-prod.focusrite.com/customer/prod/downloads/Scarlett%2018i20%203rd%20Gen%20User%20Guide%20V2.pdf)  
+[GeForce 3050RTX Ti Compute Capability](https://developer.nvidia.com/cuda-gpus)  apprently my GPU has an 8.6  
 </details>
 
 ## Flows 
