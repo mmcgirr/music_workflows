@@ -192,4 +192,9 @@ Add in the tracks to the appropriate slots within the "demucs" track group
 Now you can mute e.g. the drums to have a drumless track to practice with, etc.
 
 ### 9. Automation
+Batch renaming from command prompt:
+* CD into the separated track folder (e.g. ./separated/{model}/trackname/) and execute:
 
+```cmd
+for %i in (*.wav) do ( ffmpeg -i "%i" -af "aformat=sample_fmts=s16:sample_rates=48000" "%~ni48.wav")
+```
