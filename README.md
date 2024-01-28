@@ -8,6 +8,13 @@
 
 ## Flows 
 
+<details>
+<summary>Mermaid docs</summary>
+
+[Mermaid Docs for flowchart](https://mermaid.js.org/syntax/flowchart.html)
+
+</details>
+
 ```mermaid
 ---
 title: Generic Tracking
@@ -42,9 +49,16 @@ flowchart LR
 
 ### Open anaconda prompt 
 Anaconda is simplest way on windows to use demucs
-
+* Do everything that follows from within the anaconda prompt venv
+  
 ### CD into root storage folder
-Wherever you keep it
+Wherever you keep it (e.g. "D:\music")
+* if you don't have "base folders", make some, e.g.:
+  * "D:\music\ripped_tracks"
+  * "D:\music\wav_tracks"
+  * "D:\music\ogg_tracks"
+  * "D:\music\flac_tracks"
+* demucs will make it's own folder structure e.g. "D:\music\separated\somefilename"
 
 ### Get a reference track
 
