@@ -9,16 +9,18 @@
 <details>
 <summary>Tool docs</summary>
 
-[Mermaid Docs for flowchart](https://mermaid.js.org/syntax/flowchart.html)  
-[Emoji listing for icons in this doc](https://gist.github.com/rxaviers/7360908)  
-[yt-dlp docs](https://github.com/yt-dlp/yt-dlp)  
-[ffmpeg docs](https://ffmpeg.org/ffmpeg.html)  
-[Demucs Docs](https://github.com/adefossez/demucs)  
-[Demucs GUI Docs](https://github.com/CarlGao4/Demucs-Gui)  USE THIS!  
-[Ableton Live Docs](https://cdn-resources.ableton.com/resources/manual/2023-03-30/l11manual_en.pdf)  
-[Focusrite Control Docs](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Focusrite%20Control%20Scarlett%203rd%20Gen%20User%20Guide%20v2.pdf)  
-[Focusrite Scarlett Docs](https://fael-downloads-prod.focusrite.com/customer/prod/downloads/Scarlett%2018i20%203rd%20Gen%20User%20Guide%20V2.pdf)  
-[GeForce 3050RTX Ti Compute Capability](https://developer.nvidia.com/cuda-gpus)  apprently my GPU has an 8.6  
+* [Mermaid Docs for flowchart](https://mermaid.js.org/syntax/flowchart.html)  
+* [Emoji listing for icons in this doc](https://gist.github.com/rxaviers/7360908)  
+* [yt-dlp docs](https://github.com/yt-dlp/yt-dlp)  
+* [ffmpeg docs](https://ffmpeg.org/ffmpeg.html)  
+* Demucs
+  * [Demucs Docs](https://github.com/adefossez/demucs)  
+  * [Demucs GUI Docs](https://github.com/CarlGao4/Demucs-Gui)  USE THIS!  
+  * [Demucs GUI Usage](https://github.com/CarlGao4/Demucs-Gui/blob/main/usage.md)  
+* [Ableton Live Docs](https://cdn-resources.ableton.com/resources/manual/2023-03-30/l11manual_en.pdf)  
+* [Focusrite Control Docs](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Focusrite%20Control%20Scarlett%203rd%20Gen%20User%20Guide%20v2.pdf)  
+* [Focusrite Scarlett Docs](https://fael-downloads-prod.focusrite.com/customer/prod/downloads/Scarlett%2018i20%203rd%20Gen%20User%20Guide%20V2.pdf)  
+* [GeForce 3050RTX Ti Compute Capability](https://developer.nvidia.com/cuda-gpus)  apprently my GPU has an 8.6  
 </details>
 
 ## Flows 
@@ -78,12 +80,12 @@ Wherever you keep it (e.g. "D:\music")
 Grab best-quality, audio only (-f "ba") from youtube and store the .webm in "ripped_tracks".  See the [yt-dlp docs](https://github.com/yt-dlp/yt-dlp) for info.
 
 ```cmd 
-yt-dlp -f "ba" -o "ripped_tracks\%(title)s.f%(format_id)s.%(ext)s" "https://www.youtube.com/watch?v=fGavl_m41LE&pp=ygUSYXJldGhhIHJvY2sgc3"
+yt-dlp -f "ba" -o "ripped_tracks\%(title)s.f%(format_id)s.%(ext)s" "https://www.youtube.com/watch?v=fGavl_m41LE&pp=ygUSYXJldGhhIHJvY2sgc3" --restrict-filenames
 ```
 
 > :memo:
 > The above spits out:  
-> "Title1 Title2 - Title3 Title4 (Other Title Stuff).formatID.extension"  
+> "Title1_Title2_-_Title3_Title4_(Other_Title_Stuff).formatID.extension"  
 > as track name in "ripped_tracks" folder
 
 > [!NOTE]
