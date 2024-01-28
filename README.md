@@ -6,14 +6,21 @@
   * Of course, you could also do this within the python script that automates all this.
 - [ ] Script all this nonsense with python or similar
 
+<details>
+<summary>Tool docs</summary>
+
+[Mermaid Docs for flowchart](https://mermaid.js.org/syntax/flowchart.html)  
+[Emoji listing for icons in this doc](https://gist.github.com/rxaviers/7360908)  
+[yt-dlp docs](https://github.com/yt-dlp/yt-dlp)  
+[ffmpeg docs](https://ffmpeg.org/ffmpeg.html)  
+[Demucs Docs](https://github.com/adefossez/demucs)
+[Ableton Live Docs](https://cdn-resources.ableton.com/resources/manual/2023-03-30/l11manual_en.pdf)  
+[Focusrite Control Docs](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Focusrite%20Control%20Scarlett%203rd%20Gen%20User%20Guide%20v2.pdf)  
+[Focusrite Scarlett Docs](https://fael-downloads-prod.focusrite.com/customer/prod/downloads/Scarlett%2018i20%203rd%20Gen%20User%20Guide%20V2.pdf)  
+</details>
+
 ## Flows 
 
-<details>
-<summary>Mermaid docs</summary>
-
-[Mermaid Docs for flowchart](https://mermaid.js.org/syntax/flowchart.html)
-
-</details>
 
 ```mermaid
 ---
