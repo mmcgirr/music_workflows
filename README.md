@@ -56,9 +56,10 @@ flowchart LR
 
 ## Specifics
 
-### Open anaconda prompt 
-Anaconda is simplest way on windows to use demucs
-* Do everything that follows from within the anaconda prompt venv
+~~### Open anaconda prompt~~ 
+~~Anaconda is simplest way on windows to use demucs~~
+~~* Do everything that follows from within the anaconda prompt venv~~
+
 
 ### Use the Demucs GUI instead of anaconda prompt
 GUI is by far the simplest way to do things
