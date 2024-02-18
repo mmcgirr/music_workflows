@@ -198,3 +198,5 @@ Batch renaming from command prompt:
 ```cmd
 for %i in (*.wav) do ( ffmpeg -i "%i" -af "aformat=sample_fmts=s16:sample_rates=48000" "%~ni48.wav")
 ```
+
+added test nonsense.
